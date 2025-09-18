@@ -6,3 +6,4 @@ langchain_experimental
 langchain-google-genai
 python-dotenv
 gunicorn 
+tabulate
