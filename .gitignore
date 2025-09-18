@@ -1,0 +1,31 @@
+# Environment variables
+# This is the most important line to keep your secret keys safe!
+.env
+
+# Virtual Environments
+# These folders contain installed libraries and can be very large.
+venv
+.venv
+env
+.env
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE/Editor folders
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Generated plots in the static folder
+# This keeps the folder but ignores any generated .png files inside it.
+static/*.png
+
+# You can add a .gitkeep file inside your empty 'static' folder 
+# to ensure the folder itself is tracked by Git.
