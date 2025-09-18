@@ -22,7 +22,7 @@ if not IS_DEV_MODE:
         from langchain_google_genai import GoogleGenerativeAI
 
         # 1. Load your final cleaned data file
-        df_cleaned = pd.read_csv("Water_Resources_Cleaned_Final.csv")
+        df_cleaned = pd.read_csv("Water_Resources_Complete_Cleaned_Final.csv")
         print("✅ Data loaded successfully.")
 
         # 2. Initialize the AI Agent
